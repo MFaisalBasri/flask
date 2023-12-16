@@ -1,0 +1,63 @@
+makara.h5
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+bin/
+lib/
+include/
+lib64/
+pyvenv.cfg
+
+# Package tarballs, logs, databases, etc.
+*.orig
+*.log
+*.sql
+*.sqlite
+*.tar
+*.gz
+*.zip
+*.xz
+*.pyc
+*.pyo
+*.pyd
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# vscode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pytest
+__pycache__/
+.pytest_cache/
+
+# IDE - Project Specific
+.idea/
+
+# Ignore all .swp files
+*.swp
+
+# Flask - Ignore development database
+db.sqlite3
+
+# Django - Ignore SQLite database
+db.sqlite3
+
+# Ignore Docker Compose override file
+docker-compose.override.yml
+
+# Ignore sensitive information
+.env
